@@ -8,9 +8,25 @@ Each mini project lives inside the `projects/` folder:
 
 - `projects/automate-the-boring-stuff`
 - `projects/caesar-cipher`
+- `projects/project-template`
 - `projects/time-travel`
 
 When you add a new project later, create a new folder inside `projects/`.
+
+## Starting A New Project
+
+Use `projects/project-template` as your starter.
+
+1. Copy the `project-template` folder.
+2. Rename it to your new project name.
+3. Update the new project's `README.md`.
+4. Write your code in the `src/` folder.
+
+Example new project names:
+
+- `projects/number-guesser`
+- `projects/todo-cli`
+- `projects/password-generator`
 
 ## Working On A Project
 
@@ -22,8 +38,8 @@ When you add a new project later, create a new folder inside `projects/`.
 Example:
 
 ```bash
-cd projects/caesar-cipher
-python3 "Caesay Cipher.py"
+cd projects/project-template
+python3 src/main.py
 ```
 
 ## Git Basics
