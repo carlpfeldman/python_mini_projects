@@ -2,7 +2,14 @@
 
 Small practice files based on exercises from *Automate the Boring Stuff with Python*.
 
-## Main File
+## Structure
+
+- `PART 1: PROGRAMMING FUNDAMENTALS`
+- `PART 2: AUTOMATING TASKS`
+
+Create your chapter folders inside those two sections as you work through the book.
+
+## Current File
 
 - `main.py`
 
