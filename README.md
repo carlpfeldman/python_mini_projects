@@ -2,30 +2,42 @@
 
 A collection of small Python projects for practice, learning, and experiments.
 
-from various sources, including:
+## Repo Layout
 
-- Codeacademy
-- Automate the boring stuff with python
-- the big book of small python projects 
+Each mini project lives inside the `projects/` folder:
 
-## Projects
+- `projects/automate-the-boring-stuff`
+- `projects/caesar-cipher`
+- `projects/time-travel`
 
-- `guessing-game` - simple number guessing game
-- `todo-cli` - command-line task tracker
-- `password-generator` - random password generator
+When you add a new project later, create a new folder inside `projects/`.
 
-## How to use a project
+## Working On A Project
 
-1. Go into a project folder
-2. Create a virtual environment
-3. Install dependencies
-4. Run the app
+1. Open this repo in PyCharm or VS Code.
+2. Choose the project folder you want to work on.
+3. If that project needs packages, create or activate its virtual environment.
+4. Run the Python file for that project.
 
 Example:
 
 ```bash
-cd projects/guessing-game
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python src/main.py
+cd projects/caesar-cipher
+python3 "Caesay Cipher.py"
+```
+
+## Git Basics
+
+When you make changes:
+
+```bash
+git status
+git add .
+git commit -m "Describe what changed"
+git push
+```
+
+## Notes
+
+- `.venv/`, `.idea/`, and cache files are ignored by Git.
+- Keep project-specific notes in a small `README.md` inside each project folder.
